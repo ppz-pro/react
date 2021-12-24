@@ -1,0 +1,15 @@
+@import '../reuse.styl'
+
+.ppz-hr
+  display: flex
+  align-items: center
+  color: black(.3)
+  &::before, &::after
+    content: ''
+    flex: 1
+    height: 1px
+    background-color: currentColor
+  &::before
+    margin-right: 1rem
+  &::after
+    margin-left: 1rem

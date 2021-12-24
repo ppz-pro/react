@@ -4,11 +4,13 @@ import './index.styl'
 
 import Button from './cmp/button'
 import Modal from './cmp/modal'
+import HR from './cmp/hr'
 
 function App() {
   return <div>
     <Button />
     <Modal />
+    <HR />
   </div>
 }
 
