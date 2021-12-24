@@ -30,9 +30,12 @@ export default class Component extends React.Component {
     this._onUnMount.forEach( cb => cb() )
   }
 
-  className(...args) {
+  className(innerClass = '') {
     return {
-      className: args.filter(name => name).join(' ')
+      className: innerClass + ' ' + this.props.className
     }
+  }
+  render() {
+    return this.rend(this.props, this.state)
   }
 }

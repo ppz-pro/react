@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@ppzp/time": "file:../time.js/ppzp-time-0.0.0.tgz",
+    "@ppzp/utils": "file:../utils.js/ppzp-utils-0.0.0.tgz",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   }
