@@ -2,10 +2,25 @@
 
 .ppz-btn
   user-select: none
-  cursor: pointer
-  line-height: 1
-  font-size: .8em
-  padding: .6em 1em
   display: inline-block
-  opacity: .9
-  shadow(6px, black(.2))
+  cursor: pointer
+  &.primary:active
+    opacity: .8
+button.ppz-btn
+  line-height: 1
+  padding: .6rem 1rem
+  border: none
+  outline: none
+  border-radius: 4px
+  color: #303133
+  background: #f4f5f6
+  &.danger:active
+    color: #fff
+    background: $red
+a.ppz-btn
+  text-decoration: none
+  color: var(--ppz-anchor-color, #1a0dab)
+  &:hover
+    text-decoration: underline
+  &.danger:active
+    color: var(--ppz-anchor-color-danger, $red)
