@@ -6,8 +6,19 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "compile": "rollup -c"
+  },
   "devDependencies": {
-    "rollup": "^2.62.0"
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.1",
+    "rollup": "^2.62.0",
+    "rollup-plugin-styles": "^3.14.1",
+    "stylus": "^0.56.0"
   },
   "dependencies": {
     "@ppzp/time": "file:../time.js/ppzp-time-0.0.0.tgz",
