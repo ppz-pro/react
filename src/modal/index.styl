@@ -1,4 +1,4 @@
-@import '../reuse.styl'
+@import '@ppzp/stylus'
 
 @keyframes ppz-modal-show
   0%
@@ -6,13 +6,12 @@
   100%
     opacity: 100%
 
-+prefix-classes('ppz-')
-  .modal
-    fixed(0, 0, 0, 0)
-    background: black(.1)
-    align-items: center
-    justify-content: center
-    animation: ppz-modal-show .3s
-    .content
-      min-width: 1em
-      min-height: 1em
+.modal
+  fixed(0, 0, 0, 0)
+  background: black(.1)
+  align-items: center
+  justify-content: center
+  animation: ppz-modal-show .3s
+  .content
+    min-width: 1em
+    min-height: 1em

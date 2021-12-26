@@ -1,4 +1,7 @@
 .test
-dist
 node_modules
+
 *.tgz
+
+bundle.js
+*.css

@@ -1,11 +1,11 @@
 import React from 'react'
 import Component from '../component'
 import { defaultTrue } from '@ppzp/utils/defaults'
-import './index.styl'
+import './index.css'
 
 export default class Modal extends Component {
   rend(props) {
-    const p = this.className('ppz-modal')
+    const p = this.className('modal')
     p.style = {
       display: props.show ? 'flex':'none'
     }
@@ -15,7 +15,7 @@ export default class Modal extends Component {
           props.hide()
       }
     return <div {...p}>
-      <div className = 'ppz-content'>
+      <div className = 'content'>
         {props.children}
       </div>
     </div>
