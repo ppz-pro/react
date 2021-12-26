@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDom from 'react-dom'
-import './index.styl'
+import './index.css'
 
 import Button from './cmp/button'
 import Modal from './cmp/modal'

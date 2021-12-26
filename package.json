@@ -1,16 +1,21 @@
 {
   "name": "react-demo",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "style": "stylus ./src/",
+    "dev": "snowpack dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "snowpack": "^3.8.8",
-    "snowpack-plugin-stylus": "^1.0.6"
+    "@ppzp/stylus": "0.0.0",
+    "snowpack": "^3.8.8"
+  },
+  "dependencies": {
+    "@ppzp/react": "file:../react/ppzp-react-0.0.0.tgz",
+    "@ppzp/style": "file:../style/ppzp-style-0.0.0.tgz",
+    "react": "^17.0.2"
   }
 }

@@ -1,11 +1,11 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
   mount: {
-    src: '/'
+    src: '/',
+    asset: '/'
   },
   exclude: ['**/node_modules/**/*'],
   plugins: [
-    'snowpack-plugin-stylus'
   ],
   packageOptions: {
   },
