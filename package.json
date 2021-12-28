@@ -9,19 +9,22 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "compile": "stylus src/modal && rollup -c"
+    "style": "stylus -w src/modal src/dialog",
+    "dev": "rollup -c -w",
+    "compile": "stylus src/modal src/dialog && rollup -c"
   },
   "devDependencies": {
     "@babel/core": "^7.16.5",
     "@babel/preset-react": "^7.16.5",
-    "@ppzp/stylus": "0.0.0",
+    "@ppzp/stylus": "0.0.1",
     "@rollup/plugin-babel": "^5.3.0",
     "@rollup/plugin-commonjs": "^21.0.1",
     "rollup": "^2.62.0",
-    "stylus": "^0.56.0",
-    "rollup-plugin-styles": "^3.14.1"
+    "rollup-plugin-styles": "^3.14.1",
+    "stylus": "^0.56.0"
   },
   "dependencies": {
+    "@ppzp/style": "file:../style/ppzp-style-0.0.0.tgz",
     "@ppzp/time": "file:../time.js/ppzp-time-0.0.0.tgz",
     "@ppzp/utils": "file:../utils.js/ppzp-utils-0.0.0.tgz",
     "react": "^17.0.2",
