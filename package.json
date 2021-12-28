@@ -9,8 +9,6 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "style": "stylus -w src/modal src/dialog",
-    "dev": "rollup -c -w",
     "compile": "stylus src/modal src/dialog && rollup -c"
   },
   "devDependencies": {

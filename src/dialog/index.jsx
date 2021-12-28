@@ -22,7 +22,7 @@ function Dialog({
     {footer || // footer 可以添加 dialog-footer class，来保持样式统一
       <div className = 'dialog-footer'>{
         Object.entries(btns).map( ([label, handler]) =>
-          <a className = 'btn' onClick = {handler}>{label}</a>
+          <button className = 'btn link' onClick = {handler}>{label}</button>
         )
       }</div>
     }
