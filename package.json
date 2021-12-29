@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "compile": "stylus src/modal src/dialog && rollup -c"
+    "compile": "rollup -c"
   },
   "devDependencies": {
     "@babel/core": "^7.16.5",

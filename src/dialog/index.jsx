@@ -1,6 +1,6 @@
 import React from 'react'
 import Modal from '../modal/index.jsx'
-import './index.css'
+import './index.styl'
 
 export default
 function Dialog({

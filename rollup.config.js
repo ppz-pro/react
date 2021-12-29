@@ -8,7 +8,11 @@ export default {
     format: 'cjs'
   },
   plugins: [
-    styles(),
+    styles({
+      stylus: {
+        paths: [`${process.cwd()}/node_modules`]
+      }
+    }),
     babel()
   ]
 }
