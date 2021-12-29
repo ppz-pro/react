@@ -15,7 +15,7 @@
     "stylus": "^0.56.0"
   },
   "dependencies": {
-    "@ppzp/react": "file:../react/ppzp-react-0.0.0.tgz",
+    "@ppzp/react": "0.0.0",
     "react": "^17.0.2"
   }
 }
