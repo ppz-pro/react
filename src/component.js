@@ -1,6 +1,7 @@
 import React from 'react'
 
-export default class Component extends React.Component {
+export
+class Component extends React.Component {
   constructor(props) {
     super(props)
 
@@ -28,14 +29,5 @@ export default class Component extends React.Component {
   }
   componentWillUnmount() {
     this._onUnMount.forEach( cb => cb() )
-  }
-
-  className(innerClass = '') {
-    return {
-      className: innerClass + ' ' + this.props.className
-    }
-  }
-  render() {
-    return this.rend(this.props, this.state)
   }
 }

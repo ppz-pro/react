@@ -1,7 +1,5 @@
 .test
 node_modules
-
+dist
+demo/index.dist.js
 *.tgz
-
-bundle.js
-*.css

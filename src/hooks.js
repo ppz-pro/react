@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 export
-function useBool(defaults) {
+function useBool(defaults = false) {
   const [state, set] = useState(defaults)
   return [
     state,
